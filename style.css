@@ -1,65 +1,104 @@
 body{
-    font-family: roboto;
+    margin:0px;
+    padding:0px;
     
-    
-    
-    
-}
-.bridge {
-    width:360px;
-    height: 180px;
     border: 2px solid red;
+    
 }
 
 .header{
-    
-    
-    display:flex;
-    flex:1 1 auto;
-    height:270px;
     background-color: #1F2937;
-    
-    border: 2px solid red;
-    align-items: flex-start;
-    
-    flex-wrap: wrap;
-}
-
-
-
-.footer{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid red;
-    background-color: #1F2937;
-    height:35px;
-}
-
-.content {
-    
-    padding: 12px;
     display: flex;
+    border: 2px solid red;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid red
-}
-
-.right{
-    border: 2px solid red;
-    display:flex;
     flex-direction: column;
-   
+    padding-left:180px;
+    padding-right:180px;
+    
 }
 
-.left{
-    border: 2px solid red;
-    display:flex;
+
+.links{
+        
+        display: flex;
+        gap: 32px;
+        
+     }
+
+a{
+    color: #1c971c
+}
+
+.headerbutton {
+    background-color: #3882f6;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    color: white;
+    
+}
+
+.headerbutton:hover{
+    background-color: black;
+}
+
+.upper{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    padding-top: 8px;
+    padding-bottom: 90px;
+}
+
+.lower{
+    
+    display: flex;
+    padding-bottom: 90px;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    
+     }
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.text{
+    
+    display: flex;
     flex-direction: column;
-   
+    align-items: flex-start;
+    width: 450px;
+    
 }
 
-.first{
-    align-self: flex-start;
+
+
+p{
+    font-size: 18px;
+    color: #E5E7EB;
+
 }
+
+.portal{
+    width: 20%;
+    height: auto;
+    padding-right: 90px;
+}
+
