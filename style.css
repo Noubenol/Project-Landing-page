@@ -88,8 +88,6 @@ p {
     
 }
 
-
-
 p{
     font-size: 18px;
     color: #E5E7EB;
@@ -102,3 +100,20 @@ p{
     padding-right: 90px;
 }
 
+.topmid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.title,
+.information{
+    display: flex;
+}
